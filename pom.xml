@@ -50,6 +50,19 @@
 				<version>2.22.0</version>
 			</plugin>
 
+			<plugin>
+				<groupId>com.slama.testsmellhtml</groupId>
+				<artifactId>test-smell-html</artifactId>
+				<version>1.0-SNAPSHOT</version>
+				<executions>
+                    <execution>
+                        <goals>
+                            <goal>test-smell-html</goal>
+                        </goals>
+                    </execution>
+                </executions>
+			</plugin>
+
 		</plugins>
 	</build>
 
