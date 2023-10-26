@@ -59,6 +59,7 @@
                         <goals>
                             <goal>test-smell-html</goal>
                         </goals>
+						<phase>test</phase>
                     </execution>
                 </executions>
 			</plugin>
